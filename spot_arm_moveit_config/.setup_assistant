@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: spot_arm_description
+    relative_path: urdf/spot_arm.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/spot_arm.srdf
+  CONFIG:
+    author_name: TAB de Boer
+    author_email: t.a.b.deboer@tudelft.nl
+    generated_timestamp: 1682087876

@@ -1,0 +1,19 @@
+controller_list:
+  - name: fake_arm_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - Rev9
+      - Rev8
+      - Rev11
+      - Rev3
+      - Rev10
+      - Rev6
+  - name: fake_hand_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - Rev7
+initial:  # Define initial robot poses per group
+  - group: arm
+    pose: zero
+  - group: hand
+    pose: close
